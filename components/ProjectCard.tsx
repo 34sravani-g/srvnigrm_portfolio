@@ -6,7 +6,7 @@ interface Project {
   techStack: string;
   img: StaticImageData;
   sourceCodeLink: string;
-  hostedURL: string;
+  hostedURL?: string;
   description: string[];
 }
 
