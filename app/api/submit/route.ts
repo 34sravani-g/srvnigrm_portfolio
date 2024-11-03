@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 import EmailTemplate from "@/components/EmailTemplate";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+//we can check the actual site , resend/emails from google and check the delivered emails from that site
 
 export async function POST(request: NextRequest) {
   const requestBody = await request.json();

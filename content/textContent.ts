@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 import sortingVisualizer from "../public/sorting-visualizer.png";
 import bookCart from "../public/bookcart.png";
 import duoMeet from "../public/duomeet.png";
+import promptopia from "../public/promptopia.png"
 
 interface Experience {
   company: string;
@@ -14,7 +15,7 @@ interface Project {
   techStack: string;
   img: StaticImageData;
   sourceCodeLink: string;
-  hostedURL: string;
+  hostedURL?: string;
   description: string[];
 }
 interface TextContent {
@@ -148,6 +149,16 @@ export const textContent: TextContent = {
     sourceCodeText: "View Source Code",
     techUsedText: "Techstack : ",
     project: [
+      {
+        name: "Promptopia",
+        techStack: "Next.js, Tailwind CSS ",
+        img: promptopia,
+        sourceCodeLink: "https://github.com/34sravani-g/Promptopia",
+        description: [
+          "A go-to application for generating AI prompts efficiently.",
+          "Hosted on Vercel with a streamlined build pipeline",
+        ],
+      },
       {
         name: "Sorting Visualizer",
         techStack: "React.js, Redux, Algorithms.",
