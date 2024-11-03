@@ -151,7 +151,7 @@ export const textContent: TextContent = {
     project: [
       {
         name: "Promptopia",
-        techStack: "Next.js, Tailwind CSS ",
+        techStack: "Next.js, Tailwind CSS, Jest. ",
         img: promptopia,
         sourceCodeLink: "https://github.com/34sravani-g/Promptopia",
         description: [
