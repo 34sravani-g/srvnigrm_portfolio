@@ -15,7 +15,7 @@ const AboutSection = () => {
           {title}
         </h2>
         <a
-          href="/Sravani_Resume_React.pdf"
+          href="/Sravani_Resume_React_2.5YOE.pdf"
           target="_blank"
           className="p-4 pl-0"
         >
